@@ -1,6 +1,6 @@
-.App {
-  text-align: center;
-}
+
+   
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +35,68 @@
   to {
     transform: rotate(360deg);
   }
+}
+.App {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.App .Btn button {
+  background-color: rgb(32,151,203);
+  border-radius: 20px;
+  width: 100px;
+  color: #fff;
+  border: none;
+  height: 30px;
+  padding-top: 5px;
+}
+.App .Btn .B2 {
+  background-color: #7BA8BD;
+}
+.App .Btn .B3 {
+  background-color:  rgb(198,52,58);
+}
+.App .Btn .B4 {
+  background-color:#9F7E39;
+}
+.App .Btn .B5 {
+  background-color: #5B5997;
+}
+.App .Btn .B6 {
+  background-color: rgb(213,65,127);
+}
+.App .Btn .B7 {
+  background-color: rgb(246,142,32);
+}.App .Btn .B8 {
+  background-color: rgb(144,194,62);
+}
+.App .P2, .App .P3 {
+  display: grid;
+  grid-template-columns: repeat(2,100px);
+  grid-template-rows: auto;
+  gap: 15px;
+}
+.App .P3 #B3{
+  background-color: rgb(246,142,32);
+}
+.App .P3 #B1{
+  background-color: #7BA8BD;
+}
+
+.App .P3 #B2{
+  background-color:rgb(32,151,203);
+}
+.App .P3 #B4{
+  background-color: rgb(198,52,58);
+}
+.App .P3 #B5{
+  background-color:rgb(144,194,62);
+}
+.App .P3 #B6{
+  background-color: #5B5997;
+}
+.App .P3 #B7{
+  background-color: rgb(213,65,127);
+}
+.App .P3 #B8{
+  background-color: #9F7E39;
 }
